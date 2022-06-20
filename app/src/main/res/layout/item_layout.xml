@@ -1,0 +1,50 @@
+<androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/expenseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/habibi"
+            android:textColor="@color/black"
+            android:text="Panda Express"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:background="@null"
+            android:layout_margin="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expensePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@null"
+            android:fontFamily="@font/amiko"
+            android:inputType="numberDecimal"
+            android:text="$9.87"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
